@@ -1,0 +1,8 @@
+
+RewriteEngine on
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
+RewriteCond %{HTTP_HOST} ^twitter.lifechurchwi.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.twitter.lifechurchwi.com$
+RewriteRule ^/?$ "http\:\/\/twitter\.com\/lifechurch_wi" [R=301,L]
+

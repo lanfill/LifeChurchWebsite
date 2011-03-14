@@ -1,0 +1,9 @@
+[25-Apr-2009 12:51:20] PHP Parse error:  syntax error, unexpected T_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 6
+[25-Apr-2009 12:51:36] PHP Parse error:  syntax error, unexpected T_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 6
+[25-Apr-2009 12:51:38] PHP Parse error:  syntax error, unexpected T_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 6
+[27-Apr-2009 14:30:37] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 35
+[27-Apr-2009 14:34:29] PHP Parse error:  syntax error, unexpected T_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 37
+[27-Apr-2009 14:41:48] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 29
+[27-Apr-2009 14:43:21] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 29
+[06-May-2009 14:58:26] PHP Parse error:  syntax error, unexpected T_STRING in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 40
+[06-May-2009 15:56:54] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/lcgtonli/public_html/newsletter/send_newsletter.php on line 27

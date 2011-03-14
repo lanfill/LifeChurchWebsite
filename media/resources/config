@@ -1,0 +1,15 @@
+<config>
+	<logo.position>top-right</logo.position>
+	<logo.hide>false</logo.hide>
+	<screencolor>000000</screencolor>
+	<backcolor>000000</backcolor>
+	<frontcolor>cccccc</frontcolor>
+	<lightcolor>aaaaaa</lightcolor>
+	<plugins>gapro-1</plugins>
+	<gapro.accountid>UA-5092120-1</gapro.accountid>
+	<gapro.trackstarts>true</gapro.trackstarts>
+	<gapro.trackpercentage>true</gapro.trackpercentage>
+	<gapro.tracktime>true</gapro.tracktime>
+	<fullscreen>true</fullscreen>
+	<stretching>uniform</stretching>
+</config>

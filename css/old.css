@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font: 12px "Lucida Grande", Arial, Verdana, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0 0 0;
+}
+
+h1, h2, h3, p { 
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+/* layout */
+#page {
+	margin: 0 auto;
+	width: 802px;
+	text-align: left;
+}
+
+.inner-page {
+	background: transparent url(../img/col_back.gif) repeat-y scroll left center;
+}
+
+#feature-left {
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+	width: 345px;
+	height: 340px;
+}
+
+#feature-right {
+	float: right;
+	margin-top: 10px;
+	width: 445px;
+	height: 340px;
+}
+
+#middle {
+	clear: both;
+	width: 100%;
+}
+
+#meet-pastor {
+	float: left;
+}
+
+#info {
+	float: left;
+	width: 585px;
+	height: 89px;
+}
+
+#columns {
+	clear: both;
+}
+
+#column-one {
+	float: left;
+	width: 184px;
+	padding: 10px 10px 10px 0;
+	border-top: 1px solid #999999;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#column-one h2 {
+	color: #666666;
+}
+
+#column-one p {
+	color: #A0A098;
+}
+
+#column-two {
+	float: left;
+	width: 184px;
+	padding: 10px;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#column-two p {
+	color: #A0A098;
+}
+
+#column-two h3 {
+	color: red;
+}
+
+#column-three {
+	float: left;
+	width: 184px;
+	padding: 10px;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#column-three p {
+	color: #A0A098;
+}
+
+#column-three h3 {
+	color: blue;
+}
+
+#column-four {
+	float: left;
+	width: 184px;
+	padding: 10px 0 10px 10px;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+	text-align: right;
+	margin-top: 10px;
+}
+
+#column-four p {
+	color: #A0A098;
+}
+
+#column-four h3 {
+	color: green;
+}
+
+#column-four ul {
+	list-style: inside;
+	color: #A0A098;
+}
+
+#footer {
+	clear: both;
+}
+
+blockquote {
+	background: transparent url(../img/quoleft.png) no-repeat scroll left top;
+	font-family: Verdana;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+blockquote div {
+	background: transparent url(../img/quoright.png) no-repeat scroll right bottom;
+	padding: 0 48px;
+}
+
+h2 {
+	font-size: 14px;
+	color: #999999;
+}
+
+#columns p, #columns ul {
+	margin: 1em 0.5em;
+}
+
+/* menu */
+#nav {
+	float: right;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a:link, a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+}
+
+#nav li li a {
+	display: block;
+	padding: 0.2em 10px;
+}
+
+#nav li {
+	float: left;
+	position: relative;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+#nav li ul {
+	display: none;
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+
+#nav li > ul {
+	top: auto;
+	left: auto;
+}
+
+#nav li:hover ul {
+	display: block;
+}
+
+#banner {
+	float: left;
+	margin-top: 20px;
+}
+
+#sidebar h1.current {
+	color: green;
+	font-weight: bolder;
+}
+
+h2.header {
+	margin-bottom: 20px;
+}
+
+#newsletter {
+	margin-top: 20px;
+}
+
+#newsletter-form {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+input.btn {
+	color: #fff;
+	background-color: #888888;
+	border: 1px solid;
+	border-top-color: #717171;
+	border-left-color: #717171;
+	border-right-color: #606060;
+	border-bottom-color: #606060;
+}
+
+#modal_container {  
+    padding:5px;  
+    background-color:#fff;  
+    border:1px solid #666;  
+    overflow:auto;  
+    font-family:"Lucida Grande",Verdana;  
+    font-size:12px;  
+    color:#333;  
+    text-align:left;  
+} 
+ 
+#modal_overlay {  
+    background-color:#000;  
+}

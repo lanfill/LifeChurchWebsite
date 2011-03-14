@@ -1,0 +1,13 @@
+
+RewriteEngine on
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
+
+RewriteCond %{HTTP_HOST} ^facebook.lcgtonline.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.facebook.lcgtonline.com$
+RewriteRule ^/?$ "http\:\/\/www\.facebook\.com\/LifeChurchGermantown" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^facebook.lifechurchwi.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.facebook.lifechurchwi.com$
+RewriteRule ^/?$ "http\:\/\/www\.facebook\.com\/LifeChurchGermantown" [R=301,L]
+
